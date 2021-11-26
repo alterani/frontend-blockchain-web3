@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="./enrico-frontend-web3.js"></script>
+    <link rel="stylesheet" href="enrico.css" />
+    <title>Enrico Frontend web3</title>
+  </head>
+  <body>
+    <h3>ENRICO FRONTEND WEB3</h3>
+    <div>
+      <form
+        action="javascript:chiamaBlockchain(document.getElementById('inputwallet').value);"
+      >
+        <label for="">Indirizzo wallet</label>
+
+        <input type="text" id="inputwallet" />
+        <button type="submit">Chiamata alla blockchain</button>
+      </form>
+    </div>
+    <div id="indirizzo"></div>
+    <div id="balance"></div>
+  </body>
+</html>
