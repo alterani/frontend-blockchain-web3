@@ -1,21 +1,23 @@
 // SCEGLI BLOCKCHAIN
 
 // SEZIONE ETHEREUM
-const web3 = new Web3("https://cloudflare-eth.com"); // RETE ETHEREUM
+
+/*const web3 = new Web3("https://cloudflare-eth.com"); // RETE ETHEREUM
 var cntractTokenAddr = "0xc5bddf9843308380375a611c18b50fb9341f502a"; //yiernfinance
 var cntractTokenName = "yveCRV";
 var rete = "ETHEREUM";
 var nomeTknRete = "ETH";
+*/
 //*******  FIne sezione ethereum
 
 // SEZIONE FANTOM
-/*
+
 const web3 = new Web3("https://rpc.ftm.tools/"); // RETE FANTOM
 var cntractTokenAddr = "0x321162Cd933E2Be498Cd2267a90534A804051b11"; //(btc su fantom)
 var cntractTokenName = "BTC";
 var rete = "FANTOM";
 var nomeTknRete = "FTM";
-*/
+
 //*******  FIne sezione ethereum
 
 var walletAddress;
